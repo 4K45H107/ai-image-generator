@@ -68,4 +68,19 @@
   border-radius: 50px;
   background: #9e2098;
   cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.loading-bar {
+  width: 0px;
+  height: 7px;
+  background: #9e2098;
+}
+
+.loading-bar-full {
+  width: 424px;
+  height: 7px;
+  background: #9e2098;
+  transition: 2s;
 }
